@@ -14,10 +14,9 @@ import torch.nn.functional as F
 import torch.backends.cudnn as cudnn
 from torch.utils.data import DataLoader
 from optparse import OptionParser
-from pytorchcv. model_provider import get_model
+from pytorchcv.model_provider import get_model
 
 from utils import accuracy
-from models import *
 from dataset import *
 
 
